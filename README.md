@@ -63,6 +63,6 @@ En la cosola y en la carpeta donde se vaya a ejecutar el programa, escribir:
 node app.js
 ```
 
-#Resultados
+# Resultados
 
 Tras la ejecución del programa, los resultados se mostrarán en la consola.
