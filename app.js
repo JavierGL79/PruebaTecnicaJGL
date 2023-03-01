@@ -45,7 +45,7 @@ function salarioBruto(empresa) {
     let totalSalary = 0;
 
     for (let salary of dataExcel){
-        if (salary['ID Empresa'] == 1){
+        if (salary['ID Empresa'] == emp){
             let iSalary = salary['salario bruto anual'];
             totalSalary += iSalary;
         }
@@ -63,5 +63,5 @@ function listadoEmpleados() {
     console.log()
 };
 countSex();
-salarioBruto(1);
+salarioBruto(2);
 listadoEmpleados();
